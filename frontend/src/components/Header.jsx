@@ -23,7 +23,7 @@ const Header = () => {
           </Link>
           
           {/* Navigation items - hidden on mobile */}
-          <nav className="hidden md:flex items-center space-x-4 text-sm">
+          <nav className="hidden lg:flex items-center space-x-4 text-sm">
             <Link to="/shuffle" className="text-gray-600 hover:text-gray-900 transition-colors">
               🔀 Shuffle
             </Link>
